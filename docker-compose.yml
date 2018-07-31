@@ -16,6 +16,8 @@ services:
             - .:/app
         environment:
           VIRTUAL_HOST: "127.0.0.1:80"
+          WEB_HTTPS: "false"
+          WEB_HTTPS_ONLY: "false"
           REDIS_PORT: 6379
           APP_USER_LOCAL: "true"
           MAIL_USERNAME: ""
