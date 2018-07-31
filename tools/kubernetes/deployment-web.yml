@@ -43,6 +43,10 @@ spec:
           value: "false"
         - name: PHPFPM_MAX_CHILDREN
           value: "20"
+        - name: WEB_HTTPS
+          value: "false"
+        - name: WEB_HTTPS_ONLY
+          value: "false"
         livenessProbe:
           tcpSocket:
             port: 80

@@ -14,7 +14,7 @@ data:
   APP_URL: "http://localhost"
 
   MYSQL_PORT: "3306"
-  MYSQL_HOST: "localhost"
+  MYSQL_HOST: "pingspace-mysql"
   MYSQL_DATABASE: "homestead"
   MYSQL_USER: "homestead"
   MYSQL_PASSWORD: "secret"
@@ -25,5 +25,5 @@ data:
   SESSION_DRIVER: "file"
   QUEUE_DRIVER: "sync"
 
-  REDIS_HOST: "127.0.0.1"
+  REDIS_HOST: "pingspace-redis"
   REDIS_PORT: "6379"
